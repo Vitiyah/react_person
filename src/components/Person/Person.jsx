@@ -6,7 +6,7 @@ export const Person = ({ person }) => {
       {person.age && <p className="Person__age">I am {person.age}</p>}
       <p className="Person__partner">
         {person.isMarried === true
-          ? `${person.partnerName} is my ${person.sex === 'w' ? 'wife' : 'husband'}`
+          ? `${person.partnerName} is my ${person.sex === 'm' ? 'wife' : 'husband'}`
           : 'I am not married'}
       </p>
     </section>
